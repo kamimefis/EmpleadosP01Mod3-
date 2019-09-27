@@ -50,5 +50,14 @@ public class Empleado {
     }
     
     
+public int montoBono(){
+        int bono=0;
+        if( this.antiguedad>3){
+            bono=this.antiguedad*50000;
+            return bono;
+        }else{
+            return bono;
+        }  
+    }
     
 }
